@@ -5,43 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./Diane1.png" type="image/x-icon" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/297096f977.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Diane's Portfolio</title>
   </head>
-  <body class="bg-black text-white font-serif">
+  <body class="bg-black text-gray-200 font-serif">
     <header class="flex justify-around p-5">
       <div class="text-xl p-2 font-bold">iDiane</div>
-      <nav class="space-x-10 text-sm p-2  ">
-        <a href="#" class="hover:underline hover:text-green-700 hover:text-base" >Home</a>
-        <a href="#about" class="hover:underline hover:text-green-700 hover:text-base">About</a>
-        <a href="#projectS" class="hover:underline hover:text-green-700 hover:text-base">Portfolio</a>
-        <a href="#experience" class="hover:underline hover:text-green-700 hover:text-base">Experience</a>
-        <a href="#Services" class="hover:underline hover:text-green-700 hover:text-base">Services</a>
+      <nav class="space-x-10 text-sm p-2">
+        <a href="#" class="hover:underline hover:text-green-700 hover:text-base"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="hover:underline hover:text-green-700 hover:text-base"
+          >About us</a
+        >
+        <a
+          href="#projectS"
+          class="hover:underline hover:text-green-700 hover:text-base"
+          >Portfolio</a
+        >
+        <a
+          href="#experience"
+          class="hover:underline hover:text-green-700 hover:text-base"
+          >Experience</a
+        >
+        <a
+          href="#Services"
+          class="hover:underline hover:text-green-700 hover:text-base"
+          >Services</a
+        >
       </nav>
-      <button class="bg-white text-black p-2 rounded font-bold">
+      <button
+        class="bg-white text-black p-2 rounded font-bold hover:bg-transparent hover:border hover:border-green-700 hover: text-green-700"
+      >
         <a href="#contact">Contact Me</a>
       </button>
     </header>
-    <main class="p-25 ml-11 mr-8">
+    <main class="p-25 ml-11 mr-8 overflow-hidden">
+      <div
+        class="absolute top-0 left-0 w-50 h-50 bg-emerald-800 rounded-full filter blur-[100px] opacity-70"
+      ></div>
+      <div
+        class="absolute ml-90 w-90 h-90 bg-emerald-800 rounded-full filter blur-[160px] opacity-70"
+      ></div>
       <section class="grid grid-cols-6 grid-rows-5 gap-10">
         <div class="col-span-2">
-          <h1 class="text-5xl font-bold mb-5 row-span-4 bg-white">Hi! Diane</h1>
-          <div class="flex p-2">
-            <hr class="w-7" />
+          <h1 class="text-5xl font-bold mb-5 row-span-4">Hi! Diane</h1>
+          <div class="flex p-2 gap-3">
+            <div
+              class="border rounded-lg h-0.5 w-20 p-0 bg-gray-100 shadow-sm mt-3"
+            ></div>
             <p>Full-Stack</p>
           </div>
           <p>Designing user friendly interfaces</p>
           <p>and seamless user experience</p>
 
-          <div>
-            <button>Let's Talk</button>
-            <button>Download Cv</button>
+          <div class="flex gap-5 my-5">
+            <button
+              class="bg-white text-black p-2 rounded font-bold hover:bg-transparent hover:border hover:border-green-700 hover: text-green-700"
+            >
+              Let's Talk
+            </button>
+            <button
+              class="bg-white text-black p-2 rounded font-bold hover:bg-transparent hover:border hover:border-green-700 hover: text-green-700"
+            >
+              Download Cv
+            </button>
           </div>
-          <div class="flex">
+          <div class="flex my-5 gap-5">
             <div class="flex p-3">
               <div class="w-7">
                 <img
                   class="rounded-full border border-white"
-                  src="./Diane.png"
+                  src="./assets/Diane1.png"
                   alt="diane"
                 />
               </div>
@@ -55,14 +95,14 @@
               <div class="w-7">
                 <img
                   class="rounded-full border border-white"
-                  src="./assets/Diane.png"
+                  src="./assets/Diane1.png"
                   alt="diane"
                 />
               </div>
               <div class="w-7">
                 <img
                   class="rounded-full border border-white"
-                  src="./Diane.png"
+                  src="./assets/Diane1.png"
                   alt="diane"
                 />
               </div>
@@ -72,27 +112,39 @@
               <p>6+ Client</p>
             </div>
           </div>
+          <div class="flex p-2 gap-1">
+            <div
+              class="border rounded-lg h-0.5 w-20 p-0 bg-gray-300 shadow-sm mt-3"
+            ></div>
+            <i class="fa-solid fa-envelope text-xl text-emerald-700"></i>
+            <i
+              class="fa-brands fa-square-linkedin text-xl text-emerald-700"
+            ></i>
+            <i class="fa-brands fa-x-twitter text-xl text-emerald-700"></i>
+          </div>
         </div>
 
-        <div class="col-span-3">
-          <img src="./Diane1.png" alt="diane" />
+        <div class="col-start-3 col-span-3 row-span-5 row-start-1 z-20">
+          <img src="./assets/Diane2.png" alt="diane" class="-mt-40 -ml-10" />
         </div>
         <aside>
-          <div>
-            <p>7+</p>
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <p class="font-extrabold text-2xl">7+</p>
             <p>years of experience</p>
           </div>
 
-          <div>
-            <p>7+</p>
-            <p>years of experience</p>
+          <div class="border-b border-gray-700 pb-5 mb-10">
+            <p class="font-extrabold text-2xl">7+</p>
+            <p>Project Delivered</p>
           </div>
-          <div>
-            <p>7+</p>
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <p class="font-extrabold text-2xl">7+</p>
             <p>years of experience</p>
           </div>
         </aside>
       </section>
+
+      
     </main>
   </body>
 </html>
