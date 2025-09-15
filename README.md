@@ -6,7 +6,7 @@ Welcome to **Diane Ingabire's Portfolio**! This is a personal website showcasing
 
 ##  Screenshot
 
-![Home Page Screenshot](./assets/image.pngpng)  
+![Home Page Screenshot](./assets/image.png)  
 *Replace this image with a screenshot of your homepage.*
 
 ---
