@@ -15,7 +15,9 @@
     <header class="flex justify-around p-5">
       <div class="text-xl p-2 font-bold">iDiane</div>
       <nav class="space-x-10 text-sm p-2">
-        <a href="#" class="hover:underline hover:text-green-700 hover:text-base"
+        <a
+          href="#home"
+          class="hover:underline hover:text-green-700 hover:text-base"
           >Home</a
         >
         <a
@@ -45,14 +47,17 @@
         <a href="#contact">Contact Me</a>
       </button>
     </header>
-    <main class="p-25 ml-11 mr-8 overflow-hidden">
-      <div
-        class="absolute top-0 left-0 w-50 h-50 bg-emerald-800 rounded-full filter blur-[100px] opacity-70"
-      ></div>
-      <div
-        class="absolute ml-90 w-90 h-90 bg-emerald-800 rounded-full filter blur-[160px] opacity-70"
-      ></div>
-      <section class="grid grid-cols-6 grid-rows-5 gap-10">
+    <main class="p-24 ml-11 mr-8 overflow-hidden">
+      <section
+        class="grid grid-cols-6 grid-rows-5 gap-10 mt-30 scroll-mt-24"
+        id="home"
+      >
+        <div
+          class="absolute top-0 left-0 w-50 h-50 bg-emerald-800 rounded-full filter blur-[100px] opacity-70"
+        ></div>
+        <div
+          class="absolute ml-90 w-90 h-90 bg-emerald-800 rounded-full filter blur-[160px] opacity-70"
+        ></div>
         <div class="col-span-2">
           <h1 class="text-5xl font-bold mb-5 row-span-4">Hi! Diane</h1>
           <div class="flex p-2 gap-3">
@@ -143,8 +148,87 @@
           </div>
         </aside>
       </section>
-
-      
+      <!-- this is the techinical skills part -->
+      <section class="-mt-380 flex gap-5 items-center">
+        <div
+          class="p-2 bg-black-200 text-emerald-700 border border-emerald-700 h-20 w-50 rounded-lg items-center"
+        >
+          python
+        </div>
+        <div
+          class="p-2 bg-black-200 text-emerald-700 border border-emerald-700 h-20 w-50 rounded-lg items-center"
+        >
+          python
+        </div>
+        <div
+          class="p-2 bg-black-200 text-emerald-700 border border-emerald-700 h-20 w-50 rounded-lg items-center"
+        >
+          python
+        </div>
+        <div
+          class="p-2 bg-black-200 text-emerald-700 border border-emerald-700 h-20 w-50 rounded-lg items-center"
+        >
+          python
+        </div>
+        <div
+          class="p-2 bg-black-200 text-emerald-700 border border-emerald-700 h-20 w-50 rounded-lg items-center"
+        >
+          python
+        </div>
+      </section>
+      <!-- about me section -->
+      <section id="about" class="bg-black scroll-mt-24">
+        <div>
+          <div class="flex p-2 gap-3 mt-20">
+            <div
+              class="border rounded-lg h-0.5 w-20 p-0 bg-gray-100 shadow-sm mt-3"
+            ></div>
+            <p>About Me</p>
+          </div>
+       <div>
+        <div class="flex gap-40" >
+             
+            <img
+              src="./assets/Dianne.png"
+              alt="about me"
+              class="mt-10 h-90 w-80 rounded-full"
+            />
+          
+          <div>
+            <h1 class="text-4xl font-bold mb-5 mt-10 text-emerald-700">
+              Who Am I?
+            </h1>
+            <p1>
+              I am a passionate and dedicated full-stack developer with over 1
+              years of experience in creating dynamic and user-friendly web
+              applications. My expertise lies in both front-end and back-end
+              development, allowing me to build seamless and efficient digital
+              solutions. I thrive on challenges and continuously seek to expand
+              my skill set to stay at the forefront of technological
+              advancements. My goal is to deliver high-quality, innovative
+              applications that not only meet but exceed client expectations.
+            </p1>
+          </div>
+        </div>
+        
+       </div>
+        </div>
+      </section>
+      <!-- project section -->
+      <section id="projectS" class="scroll-mt-24">
+         <div class="absolute top-0 left-0 w-96 h-96 bg-emerald-900 rounded-full filter blur-[150px] opacity-30"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-green-400 rounded-full filter blur-[150px] opacity-30"></div>
+               <div>
+          <div class="flex p-2 gap-3 mt-20">
+            <div
+              class="border rounded-lg h-0.5 w-20 p-0 bg-gray-100 shadow-sm mt-3"
+            ></div>
+            <p>Projects</p>
+          </div>
+          <h1 class="text-4xl font-bold mb-5 mt-10 text-emerald-700">
+            My Recent Work</h1>
+       <div>      
+</section>
     </main>
   </body>
 </html>
