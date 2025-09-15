@@ -231,7 +231,7 @@
     </div>
   <!-- Background blobs -->
   <div class="absolute w-96 h-96 bg-emerald-900 rounded-full filter blur-[150px] opacity-30 top-0 left-0"></div>
-  <div class="absolute w-96 h-96 bg-emerald-400 rounded-full filter blur-[150px] opacity-30 bottom-0 right-0"></div>
+  <div class="absolute w-100 h-100 bg-emerald-400 rounded-full filter blur-[100px] opacity-30 inset-0 m-auto"></div>
   
   <!-- Section header -->
   <div class="text-center mb-12">
@@ -321,16 +321,54 @@
 </section>
 
 
+<section id="contact" class="scroll-mt-24 relative py-20 bg-black text-white">
+  <div class="flex items-center gap-3 mb-12">
+      <div class="border rounded-lg h-0.5 w-20 bg-gray-100 shadow-sm"></div>
+      <p class="uppercase tracking-wide text-sm text-emerald-500">Contact Me</p>
+    </div>
+  <!-- Background blobs -->
+  <div class="absolute w-96 h-96 bg-emerald-900 rounded-full filter blur-[150px] opacity-30 top-0 left-0"></div>
+  <div class="absolute w-96 h-96 bg-emerald-400 rounded-full filter blur-[150px] opacity-30 bottom-0 right-0"></div>
 
-    <section>
-      <div>
-        <div class="flex p-2 gap-3 mt-20">
-          <div class="border rounded-lg h-0.5 w-20 p-0 bg-gray-100 shadow-sm mt-3"></div>
-          <p>Contact Me</p>
-        </div>
-        <div>
-        </div>
-    </section>
+  <!-- Section header -->
+  <div class="text-center mb-12 px-4">
+
+    <h1 class="text-4xl font-bold text-emerald-700 mb-4">Get in Touch</h1>
+    <p class="text-gray-300 max-w-2xl mx-auto">
+      I’d love to hear from you! Whether it’s a project collaboration, a question, or just to say hi, feel free to reach out.
+    </p>
+  </div>
+
+  <!-- Contact content -->
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-4">
+    <!-- Contact info -->
+    <div class="flex flex-col gap-6">
+      <h2 class="text-2xl font-bold text-emerald-500">Contact Info</h2>
+      <p class="text-gray-300">Feel free to reach me through any of the following methods:</p>
+      <div class="flex flex-col gap-3">
+        <p><span class="font-semibold text-emerald-500">Email:</span> <a href="mailto:ngabirediane02@gmail.com" class="underline text-gray-200">ngabirediane02@gmail.com</a></p>
+        <p><span class="font-semibold text-emerald-500">Phone:</span> <span class="text-gray-200">+250 798 334054</span></p>
+        <p><span class="font-semibold text-emerald-500">Location:</span> <span class="text-gray-200">Kigali, Rwanda</span></p>
+      </div>
+      <div class="flex gap-4 mt-4">
+        <a href="#" class="text-gray-200 hover:text-emerald-500 transition"><i class="fab fa-linkedin text-2xl"></i></a>
+        <a href="#" class="text-gray-200 hover:text-emerald-500 transition"><i class="fab fa-github text-2xl"></i></a>
+        <a href="#" class="text-gray-200 hover:text-emerald-500 transition"><i class="fab fa-twitter text-2xl"></i></a>
+      </div>
+    </div>
+
+    <!-- Contact form -->
+    <form class="bg-transparent border-3 border-emerald-700 rounded-xl p-8 shadow-lg flex flex-col gap-6">
+      <input type="text" placeholder="Your Name" class="p-3 rounded-lg border border-gray-300 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
+      <input type="email" placeholder="Your Email" class="p-3 rounded-lg border border-gray-300 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500">
+      <textarea placeholder="Your Message" rows="6" class="p-3 rounded-lg border border-gray-300 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"></textarea>
+      <button type="submit" class="bg-emerald-500 text-black font-semibold py-3 rounded-lg hover:bg-transparent hover:border hover:border-emerald-500 hover:text-emerald-500 transition">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
   </main>
 </body>
 
