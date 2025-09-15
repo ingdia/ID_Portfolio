@@ -11,7 +11,7 @@
 
   <title>Diane's Portfolio</title>
 <style>
-    /* Horizontal sliding animation */
+    
     @keyframes slide {
       0% { transform: translateX(0); }
       100% { transform: translateX(-50%); }
@@ -20,8 +20,6 @@
       animation: slide 20s linear infinite;
     }
 
-    
-   
   </style>
 </head>
 
@@ -42,12 +40,15 @@
       <a href="#contact">Contact Me</a>
     </button>
   </header>
-  <main class="p-24 ml-11 mr-8 overflow-hidden">
+  <main class="p-24 ml-11 mr-8 overflow-hidden ">
     <section class="grid grid-cols-6 grid-rows-5 gap-10 mt-10 scroll-mt-24" id="home">
       <div class="absolute top-0 left-0 w-50 h-50 bg-emerald-800 rounded-full filter blur-[100px] opacity-70"></div>
-      <div class="absolute ml-90 w-90 h-90 bg-emerald-800 rounded-full filter blur-[160px] opacity-70"></div>
+      <div class="absolute ml-96 w-96 h-96 bg-emerald-800 rounded-full filter blur-[160px] opacity-70"></div>
       <div class="col-span-2">
-        <h1 class="text-5xl font-bold mb-5 row-span-4">Hi! Diane</h1>
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold">
+  I'm Diane 
+</h1>
+
         <div class="flex p-2 gap-3">
           <div class="border rounded-lg h-0.5 w-20 p-0 bg-gray-100 shadow-sm mt-3"></div>
           <p>Full-Stack</p>
@@ -58,7 +59,7 @@
         <div class="flex gap-5 my-5">
           <button
             class="px-5 py-2 bg-emerald-600 text-white rounded-full font-medium hover:bg-emerald-700 transition">
-            Let's Talk
+            <a href="#contact"></a>Let's Talk
           </button>
           <button
             class="px-5 py-2 border border-emerald-600 text-emerald-500 rounded-full font-medium hover:bg-emerald-600 hover:text-white transition">
@@ -248,7 +249,7 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4">
     <!-- Project 1 -->
     <div class="bg-gray-800 rounded-xl p-5 shadow-lg hover:shadow-2xl transition-shadow duration-300">
-      <img src="https://images.unsplash.com/photo-1581091870624-17696a22c177?crop=entropy&cs=tinysrgb&fit=max&w=400&h=300" alt="Swift Ride"
+      <img src="./assets/mobile.jpeg"
         class="w-full h-60 object-cover rounded-2xl mb-4 shadow-md">
       <h2 class="text-xl font-bold text-emerald-500 mb-2">Swift Ride</h2>
       <p class="text-gray-300 mb-4">A ride-sharing app connecting drivers with passengers for convenient transportation.</p>
@@ -260,7 +261,7 @@
 
     <!-- Project 2 -->
     <div class="bg-gray-800 rounded-xl p-5 shadow-lg hover:shadow-2xl transition-shadow duration-300">
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&w=400&h=300" alt="Portfolio"
+      <img src="./assets/Screenshot 2025-09-15 090335.png" alt="Portfolio"
         class="w-full h-60 object-cover rounded-2xl mb-4 shadow-md">
       <h2 class="text-xl font-bold text-emerald-500 mb-2">Personal Portfolio</h2>
       <p class="text-gray-300 mb-4">A responsive portfolio website showcasing skills, projects, and experience with interactive UI.</p>
@@ -372,20 +373,15 @@
   </main>
 
   <footer class="relative bg-gray-900 text-gray-300 pt-24 pb-12 overflow-hidden">
-  <!-- Animated background blobs -->
+  
   <div class="absolute w-72 h-72 bg-emerald-900 rounded-full filter blur-[150px] opacity-30 top-1/4 left-1/3 animate-bounce-slow"></div>
   <div class="absolute w-96 h-96 bg-emerald-400 rounded-full filter blur-[200px] opacity-20 bottom-0 right-0 animate-spin-slow"></div>
 
-  <!-- Curved top using SVG -->
-  <div class="absolute top-0 left-0 w-full overflow-hidden leading-[0]">
-    <svg class="relative block w-full h-20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-      <path d="M0,0 C300,120 900,0 1200,120 L1200,0 L0,0 Z" class="fill-black"></path>
-    </svg>
-  </div>
+ 
 
   <!-- Footer content -->
   <div class="relative z-10 max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
-    <!-- Logo & About -->
+   
     <div>
       <h2 class="text-3xl font-bold text-emerald-500 mb-4">Diane Ingabire</h2>
       <p class="text-gray-300">
@@ -404,7 +400,7 @@
       </ul>
     </div>
 
-    <!-- Contact & Socials -->
+    
     <div>
       <h3 class="text-2xl font-semibold text-emerald-500 mb-4">Contact & Socials</h3>
       <p>Email: <a href="mailto:your-email@example.com" class="underline hover:text-emerald-400">ngabirediane02@gmail.com</a></p>
