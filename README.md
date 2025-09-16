@@ -59,8 +59,12 @@ You can view the live portfolio here:
 ```bash
 git clone https://github.com/yourusername/portfolio.git
 
+```
+
 2. Navigate into the project folder:
 
-  `cd portfolio`
+  ```bash
+  cd portfolio
+  ```
 
 3. Open index.html in your preferred browser.
