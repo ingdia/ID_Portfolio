@@ -32,27 +32,29 @@
   <body class="bg-black text-gray-200 font-serif">
 
 
-    <header
-      class="container mx-auto flex flex-col md:flex-row items-center justify-between p-4 z-50 bg-transparent shadow-md w-full"
-    >
-      <div class="text-xl p-2 font-bold mb-4 md:mb-0">iDiane</div>
-      <nav
-        class="flex flex-col md:flex-row justify-center gap-4 text-white p-4 text-sm font-medium"
-      >
-        <a href="#home" class="hover:text-green-400">Home</a>
-        <a href="#about" class="hover:text-green-400">About Us</a>
-        <a href="#projects" class="hover:text-green-400">Portfolio</a>
-        <a href="#experience" class="hover:text-green-400">Experience</a>
-        <a href="#services" class="hover:text-green-400">Services</a>
-      </nav>
-      <button
-        class="px-5 py-2 border border-emerald-600 text-emerald-500 rounded-full font-medium hover:bg-emerald-600 hover:text-white transition mt-4 md:mt-0"
-      >
-        <a href="#contact">Contact Me</a>
-      </button>
-    </header>
-    <main>
-<section>
+ <header
+  class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md mb-10 flex flex-col md:flex-row items-center justify-between p-4"
+>
+  <div class="text-xl p-2 font-bold mb-4 md:mb-0">iDiane</div>
+  <nav
+    class="flex flex-col md:flex-row justify-center gap-4 text-white p-4 text-sm font-medium"
+  >
+    <a href="#home" class="hover:text-green-400">Home</a>
+    <a href="#about" class="hover:text-green-400">About Us</a>
+    <a href="#projects" class="hover:text-green-400">Portfolio</a>
+    <a href="#experience" class="hover:text-green-400">Experience</a>
+    <a href="#services" class="hover:text-green-400">Services</a>
+  </nav>
+  <button
+    class="px-5 py-2 border border-emerald-600 text-emerald-500 rounded-full font-medium hover:bg-emerald-600 hover:text-white transition mt-4 md:mt-0"
+  >
+    <a href="#contact">Contact Me</a>
+  </button>
+</header>
+
+    <main >
+      <!-- Home Section -->
+<section id="home" class="mt-24  scroll-mt-32 md:scroll-mt-24 relative">
   <!-- container of upper part -->
   <div class="container mx-auto flex flex-col md:flex-row items-center justify-between p-4 z-50 bg-transparent shadow-md w-full">
     <!-- left part -->
@@ -147,7 +149,7 @@
   </div>
 </section>
  <!-- About Section -->
- <section id="about" class="container mx-auto px-4 py-12">
+ <section id="about" class="container mx-auto px-4 py-12  scroll-mt-32 md:scroll-mt-24 relative">
   <div class="flex items-center gap-3 mb-12">
       <div class="border rounded-lg h-0.5 w-20 bg-gray-100 shadow-sm"></div>
       <p class="uppercase tracking-wide text-sm text-emerald-500">About Me</p>
@@ -235,7 +237,7 @@
     
  </section>
  <!-- projects Section -->
- <section class="container mx-auto px-4 py-12" id="projects">
+ <section class="container mx-auto px-4 py-12 scroll-mt-32 md:scroll-mt-24 relative" id="projects">
    <div class="flex items-center gap-3 mb-12">
       <div class="border rounded-lg h-0.5 w-20 bg-gray-100 shadow-sm"></div>
       <p class="uppercase tracking-wide text-sm text-emerald-500">Projects</p>
@@ -326,7 +328,7 @@
     </div>
  </section>
  <!-- Contact Section -->
- <section id="contact" class="container mx-auto px-4 py-12">
+ <section id="contact" class="container mx-auto px-4 py-12 scroll-mt-32 md:scroll-mt-24 relative">
   <div class="flex items-center gap-3 mb-12">
       <div class="border rounded-lg h-0.5 w-20 bg-gray-100 shadow-sm"></div>
       <p class="uppercase tracking-wide text-sm text-emerald-500">Contact Me</p>
